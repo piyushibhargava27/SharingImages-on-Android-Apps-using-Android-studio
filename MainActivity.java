@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Uri uri = Uri.parse(Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/Restored/ruchi.jpg");
+                Uri uri = Uri.parse(Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/Restored/xyz.jpg");
                 Intent share = new Intent(Intent.ACTION_SEND);
                 share.putExtra(Intent.EXTRA_STREAM, uri);
                 share.putExtra(Intent.EXTRA_TEXT,"hey guys..!!!");
